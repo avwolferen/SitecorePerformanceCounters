@@ -1,0 +1,9 @@
+﻿@model AlexVanWolferen.CustomSitecore.PerformanceCounters.Models.ITitleText
+
+<div class="service-item">
+    <div class="icon">
+        <img src="~/Resources/Ziggy/img/first-icon.png" alt="">
+    </div>
+    <h4>@Html.Glass().Editable(Model, m => m.Title)</h4>
+    <p>@Html.Glass().Editable(Model, m => m.Text)</p>
+</div>

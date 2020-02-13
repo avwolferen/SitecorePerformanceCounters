@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <sitecore>
+    <counterLoader type="Sitecore.Cloud.ApplicationInsights.CounterLoader,Sitecore.Cloud.ApplicationInsights">
+      <includedCounters hint="raw:AddCounterToReport">
+        <add category="My Custom Cache" name="Cache Clearings / sec" />
+        <add category="My Custom Cache" name="Cache Hits / sec" />
+        <add category="My Custom Cache" name="Cache Misses / sec" />
+      </includedCounters>
+    </counterLoader>
+  </sitecore>
+</configuration>
