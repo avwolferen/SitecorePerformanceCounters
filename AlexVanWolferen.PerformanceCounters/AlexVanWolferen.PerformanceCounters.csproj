@@ -136,14 +136,6 @@
     <Content Include="App_Config\Include\Glass\z.Glass.Mapper.Sc.ViewRender.config.exclude" />
     <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.Start.config" />
     <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.config" />
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="Properties\PublishProfiles\avw-sc901-poc-single - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Content\Site.css" />
@@ -201,8 +193,6 @@
     <Content Include="Resources\Ziggy\js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" />
     <Content Include="Resources\Ziggy\js\vendor\npm.js" />
     <Content Include="Resources\Ziggy\portfolio-page.html" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Resources\Ziggy\css\bootstrap-theme.css.map" />
     <Content Include="Resources\Ziggy\css\bootstrap.css.map" />
     <Content Include="Resources\Ziggy\fonts\fontawesome-webfont.eot" />
@@ -213,14 +203,10 @@
     <Content Include="Resources\Ziggy\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Resources\Ziggy\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Resources\Ziggy\fonts\glyphicons-halflings-regular.woff" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Views\Dummy\TitleText.cshtml" />
     <Content Include="Views\web.config" />
     <Content Include="Views\Layouts\MainLayout.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
