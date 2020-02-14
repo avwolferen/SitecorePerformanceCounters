@@ -9,13 +9,13 @@ namespace AlexVanWolferen.CustomSitecore.PerformanceCounters.Diagnostics.Perform
 {
     public static class MyCachingCounters
     {
-        public const string CategoryName = "My Custom Cache";
+        public const string CategoryName = "Sitecore.Caching";
 
-        private const string CacheClearingsName = "Cache Clearings / sec";
+        private const string CacheClearingsName = "My Custom Cache Clearings / sec";
 
-        private const string CacheHitsName = "Cache Hits / sec";
+        private const string CacheHitsName = "My Custom Cache Hits / sec";
 
-        private const string CacheMissesName = "Cache Misses / sec";
+        private const string CacheMissesName = "My Custom Cache Misses / sec";
 
         /// <summary>
         /// Gets the counter that counts total number of times that an instance of the eventscache cache has been cleared.
@@ -69,9 +69,9 @@ namespace AlexVanWolferen.CustomSitecore.PerformanceCounters.Diagnostics.Perform
         {
             try
             {
-                CacheClearings = new AmountPerSecondCounter(CacheClearingsName, CategoryName);
-                CacheHits = new AmountPerSecondCounter(CacheHitsName, CategoryName);
-                CacheMisses = new AmountPerSecondCounter(CacheMissesName, CategoryName);
+                MyCachingCounters.CacheClearings = new AmountPerSecondCounter(CacheClearingsName, CategoryName);
+                MyCachingCounters.CacheHits = new AmountPerSecondCounter(CacheHitsName, CategoryName);
+                MyCachingCounters.CacheMisses = new AmountPerSecondCounter(CacheMissesName, CategoryName);
             }
             catch (Exception)
             {
